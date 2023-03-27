@@ -1,0 +1,1 @@
+doc = '''Java language documentation'''
