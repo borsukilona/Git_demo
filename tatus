@@ -1,0 +1,36 @@
+[33mcommit b8c5073deda53560bf70b6c0bdb1c156ce2961d9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: ilonaborsuk <ilonaborsuk@gmail.com>
+Date:   Mon Mar 27 22:39:24 2023 +0200
+
+    rename lesson_4 and lesson_5 files
+
+[33mcommit 9718ffcf2c10cb537126f5ac158ad4bcd3243327[m
+Author: ilonaborsuk <ilonaborsuk@gmail.com>
+Date:   Mon Mar 27 22:36:34 2023 +0200
+
+    add lesson 4 from redrover done
+
+[33mcommit 0d647bf55d7e935371741cabc2075b7b8653b568[m
+Merge: 45d6a24 ac06b57
+Author: ilonaborsuk <ilonaborsuk@gmail.com>
+Date:   Mon Mar 27 21:00:53 2023 +0200
+
+    Merge branch 'main' of https://github.com/borsukilona/Git_demo
+
+[33mcommit ac06b57b0de3ff7a27aad452818cbd608d75ffda[m
+Author: Ilona B <126205785+borsukilona@users.noreply.github.com>
+Date:   Mon Mar 27 20:52:34 2023 +0200
+
+    Initial commit
+
+[33mcommit 45d6a2456dfd26dda840fa577eba9c9f572f980e[m[33m ([m[1;32mfeature[m[33m)[m
+Author: ilonaborsuk <ilonaborsuk@gmail.com>
+Date:   Mon Mar 27 20:49:36 2023 +0200
+
+    Add new_feature_function to branch feature
+
+[33mcommit 9564cb3017f5efa2f614597fd4703fbf08a9b214[m
+Author: ilonaborsuk <ilonaborsuk@gmail.com>
+Date:   Mon Mar 27 20:39:10 2023 +0200
+
+    Implemented new files
