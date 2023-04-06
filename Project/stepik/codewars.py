@@ -107,6 +107,7 @@ match value:
         print('no such value')
 '''
 
+
 # -----------------------------------------------
 def between(a, b):
     i = a
@@ -130,6 +131,7 @@ elif len(family_2) > len(family_1):
 else:
     print('Equal')
 '''
+
 
 # -----------------------------------------------
 def sum_dig_pow(a, b):
@@ -252,8 +254,6 @@ def keep_order(ary, val):
     return indx
 
 
-print(keep_order([1, 1, 1, 1], 2))
-
 # -----------------------------------------------
 # https://www.codewars.com/kata/61c78b57ee4be50035d28d42/train/python
 
@@ -272,6 +272,7 @@ def merge_strings(first, second):
             stop -= 1
 
     return first[0:start] + second
+
 
 # -----------------------------------------------
 # https://www.codewars.com/kata/58b972cae826b960a300003e/solutions/python
@@ -293,6 +294,26 @@ def missing(nums, s):
 
     return res
 
+
 # -----------------------------------------------
+# https://www.codewars.com/kata/571d2e9eeed4a150d30011e7/python
+
+def scoreboard(who_ate_what):
+    lst = []
+
+    for el in who_ate_what:
+        scores = 0
+        for k, v in el.items():
+            if k == 'chickenwings':
+                scores += v * 5
+            elif k == 'hamburgers':
+                scores += v * 3
+            elif k == 'hotdogs':
+                scores += v * 2
+        lst.append({"name": el.get("name"), "score": scores})
+
+    return sorted(lst, key=lambda x: (-x.get("score"), x.get("name")), reverse=True)
 
 
+print(scoreboard([{"name": "Habanero Hillary", "chickenwings": 5, "hamburgers": 17, "hotdogs": 11},
+                  {"name": "Big Bob", "chickenwings": 20, "hamburgers": 4, "hotdogs": 11}]))
